@@ -63,11 +63,11 @@ An algorithm is a well-defined sequence of steps for solving a specific problem 
 			height="350"
 	/>
 
-- Classes of functions
+- Classes of functions :
 	- Constant: O(1)
 	- Linear: O(n)
 	- Logarithmic: O(log n)
-	- linear Logarithmic: O(n log n)
+	- Linear Logarithmic: O(n log n)
 	- Polynomial: O(n^2)
 	- Exponential: O(2^n)
 	- Factorial: O(n!)
