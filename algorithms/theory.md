@@ -33,6 +33,8 @@ An algorithm is a well-defined sequence of steps for solving a specific problem 
 			* Memory access
 			* Parallel process
 			* Comparisons
+
+	
 </details>
 
 <br />
@@ -52,4 +54,23 @@ An algorithm is a well-defined sequence of steps for solving a specific problem 
 
 `It is worth to mention that the actual running time of an algorithm can be influenced by many factors, such as hardware and software configurations. Even so, asymptotic analysis provide useful insights`
 
+<details>
+	<summary>Big-O Notation</summary>
+	<img 
+			src="../ilustrative_resources/bigO_complexity_chart.png"
+    	alt="Big-O Complexity Chart"
+			width="500"
+			height="350"
+	/>
+
+- Classes of functions
+	- Constant: O(1)
+	- Linear: O(n)
+	- Logarithmic: O(log n)
+	- linear Logarithmic: O(n log n)
+	- Polynomial: O(n^2)
+	- Exponential: O(2^n)
+	- Factorial: O(n!)
+
+</details>
 </details>
