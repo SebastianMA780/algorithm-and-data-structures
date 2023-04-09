@@ -1,3 +1,4 @@
+# Description: Some Factorial algorithms with big O notation analysis.
 import time
 import sys
 

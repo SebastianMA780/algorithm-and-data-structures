@@ -1,3 +1,15 @@
+/* 
+	Here are some examples of algorithms that have different implementations.
+	The goal is to find the complexity of each algorithm and compare them.
+	Big O notation is used to compare the complexity of algorithms.
+
+	Functions goal:
+	* Each function is trying to solve the same problem of finding 
+	if a given payloadId exists  in the payloads array of the 
+	data obtained from an API.
+*/
+
+
 //SUM = O(1 + 1 + n + 1 + n + 1 + 1 + n^2) = O(4 + 2n + n^2) = O(n^2);
 async function alphaAlgorithm(payloadId, payloadAPI) {
 	let respuesta = await fetch(payloadAPI); // O(1)
