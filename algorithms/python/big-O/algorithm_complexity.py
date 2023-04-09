@@ -12,12 +12,15 @@ def factorial(number):
 
 		return result
 
-def factorial_recursive(number):
+	# O(1 + 1 + 1 + n ) = O(3 + n) = O(n) grows linearly
+
+def factorial_recursive(number): 
 		if number == 1: # O(1)
 				return number
 		else:
 				return number * factorial_recursive(number - 1) # O(n)
 		
+	# O(1  + n) = O(1 + n) = O(n) grows linearly
 
 if __name__ == '__main__':
 		number = 1000
