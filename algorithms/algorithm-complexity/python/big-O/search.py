@@ -14,17 +14,21 @@ def linear_search(list, target):
 
 def binary_search(list, init, end, target):
 		print(f'searching {target} between {init} and {end}')
-		if init > end: 
+		if init > end: # O(1)
 			return False
 		
-		middle = (init + end) // 2 
+		middle = (init + end) // 2 # O(1)
 
-		if list[middle] == target: 
+		if list[middle] == target: # O(1)
 			return True
-		elif list[middle] < target:
+		elif list[middle] < target: # O(1)
 			return binary_search(list, middle + 1, end, target) 
+		# O(log(n)) Logarithmic Time, because the search space is divided by 2 in each recursive call
 		else:
 			return binary_search(list, init, middle - 1, target)	
+		# O(log(n)) Logarithmic Time, because the search space is divided by 2 in each recursive call
+
+		# O(log(n)) + O(1) + O(1) + O(1) + O(1) = O(log(n)) Logarithmic Time
 
 if __name__ == '__main__':
 	list_size = int(input('What size is the list? '))
