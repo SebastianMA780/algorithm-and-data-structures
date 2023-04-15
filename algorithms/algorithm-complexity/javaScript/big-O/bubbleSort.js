@@ -11,8 +11,8 @@ readline.question('What size is the list?: ', (val) => {
 	console.log(list);
 
 	function bubbleSort(list) {
-		for (let i = 0; i < list.length; i++) {
-			for (let j = 0; j < list.length - i - 1; j++) {
+		for (let i = 0; i < list.length; i++) { 
+			for (let j = 0; j < list.length - i - 1; j++) { // O(n) * O(n) = O(n^2) grows quadratically
 				if (list[j] > list[j +1]) {
 					let temp = list[j];
 					list[j] = list[j + 1];
@@ -25,9 +25,6 @@ readline.question('What size is the list?: ', (val) => {
 	}
 
 	console.log(bubbleSort(list));
-	
+
   readline.close();
 });
-
-
-
