@@ -34,6 +34,7 @@ def merge_sort(list):
             list[k] = right[j]
             j += 1
             k += 1
+            
     return list
 
 
