@@ -13,11 +13,17 @@ class HashTable {
 	}
 
 	set(key, value) {
+		if(this.get(key)) {
+			return console.log('keys must be uniques');
+		}
+
 		const address = this.hashFunction(key);
 		console.log(`address: ${address}`);
+
 		if(!this.data[address]) {
 			this.data[address] = [];
 		}
+
 		this.data[address].push([key, value]);
 		return this.data;
 	}
@@ -45,6 +51,7 @@ class HashTable {
 	myHashTable.set('lawyer', 30);
 	myHashTable.set('doctor', 31);
 	myHashTable.set('engineer', 32); //keys must be unique, this should not been allowed.
+	
 	console.log({
 		myHashTable,
 		getQuantity: [

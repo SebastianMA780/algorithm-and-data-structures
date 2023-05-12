@@ -47,4 +47,30 @@ are a **collection of values**, relationship between them and methods to access 
 
 </details>
 
+<br />
+
+<details>
+	<summary>Linked List:</summary>
+
+- Organized node set that contains the value we need and a reference to the next node.
+
+	- value: current node data.
+	- Head: reference to first node.
+	- Tail: reference to last node.
+	- Next: reference to next node.
+	- Prev: reference to previous node.
+
+- Singly Linked List (one direction):
+
+	- Each node save its value and the reference to the next node
+	- In this type of list you can only advance in it forward.
+		- So for get a previous value you need to start in the head again.
+	
+
+- Doubly linked list ( two directions)
+
+	- Each node save its value and the reference to the next and prev node.
+	- You can move forward and backward.
+
+</details>
 
