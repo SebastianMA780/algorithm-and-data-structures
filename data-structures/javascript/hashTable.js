@@ -41,6 +41,19 @@ class HashTable {
 		return undefined;
 	}
 
+	remove(key) {
+		const address = this.hashFunction(key);
+		const currentBucket = this.data[address];
+
+		if(!currentBucket) return console.log('this key does not exists');
+
+		for (let index = 0; index < currentBucket.length; index++) {
+			if(currentBucket[index][0] === key) {
+				currentBucket.splice(index, 1);
+				return console.log('key removed');
+			}
+		}
+	}
 }
 
 	const myHashTable = new HashTable(50);
@@ -51,7 +64,9 @@ class HashTable {
 	myHashTable.set('lawyer', 30);
 	myHashTable.set('doctor', 31);
 	myHashTable.set('engineer', 32); //keys must be unique, this should not been allowed.
-	
+
+	myHashTable.remove('doctor');
+
 	console.log({
 		myHashTable,
 		getQuantity: [
