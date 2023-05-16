@@ -89,3 +89,14 @@ are a **collection of values**, relationship between them and methods to access 
 		- Peek: View the topmost item in the stack.
 </details>
 
+<br />
+
+<details>
+	<summary>Queue:</summary>
+
+- Represents a sequence of elements in a linear data structure format.
+
+	- access to the elements is bases on FIFO principle.
+		- FIFO means, First In , First out.
+</details>
+
