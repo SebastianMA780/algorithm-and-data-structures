@@ -61,7 +61,7 @@
 	<details>
 	<summary>Sorting algorithm Cases</summary>
 	<img 
-			src="../../ilustrative_resources/data_structure_big_o_worst_sc.png"
+			src="../../ilustrative_resources/algorithm_sort_big_o.png"
 			alt="Big-O Complexity Chart"
 			width="500"
 			height="350"
