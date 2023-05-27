@@ -100,3 +100,15 @@ are a **collection of values**, relationship between them and methods to access 
 		- FIFO means, First In , First out.
 </details>
 
+<br />
+
+<details>
+	<summary>Trees:</summary>
+
+<img 
+		src="../ilustrative_resources/tree_definition.png"
+		alt="Big-O Complexity Chart"
+		width="500"
+		height="350"
+/>
+</details>
