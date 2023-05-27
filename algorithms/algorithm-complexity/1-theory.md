@@ -20,6 +20,8 @@
 			width="500"
 			height="350"
 	/>
+	
+<br/>
 
 - Classes of functions :
 	- Constant: O(1)
@@ -29,5 +31,41 @@
 	- Polynomial: O(n^2)
 	- Exponential: O(2^n)
 	- Factorial: O(n!)
+
+	<br/>
+
+	<details>
+	<summary>Data Structure Cases</summary>
+	<img 
+			src="../../ilustrative_resources/data_structure_big_o.png"
+    	alt="Big-O Complexity Chart"
+			width="500"
+			height="350"
+	/>
+	</details>
+
+	<br/>
+
+	<details>
+	<summary>Data Structure Worst scenario Cases</summary>
+	<img 
+			src="../../ilustrative_resources/data_structure_big_o_worst_sc.png"
+			alt="Big-O Complexity Chart"
+			width="500"
+			height="350"
+	/>
+	</details>
+
+	<br/>
+
+	<details>
+	<summary>Sorting algorithm Cases</summary>
+	<img 
+			src="../../ilustrative_resources/data_structure_big_o_worst_sc.png"
+			alt="Big-O Complexity Chart"
+			width="500"
+			height="350"
+	/>
+	</details>
 
 </details>
