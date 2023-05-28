@@ -105,10 +105,15 @@ are a **collection of values**, relationship between them and methods to access 
 <details>
 	<summary>Trees:</summary>
 
+-	A tree is a hierarchical data structure in which elements are organized into interconnected nodes [see image].
+	- The top node is called the "root
+
 <img 
 		src="../ilustrative_resources/tree_definition.png"
 		alt="Big-O Complexity Chart"
 		width="500"
 		height="350"
 />
+
+
 </details>
