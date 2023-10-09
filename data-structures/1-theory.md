@@ -117,3 +117,19 @@ are a **collection of values**, relationship between them and methods to access 
 
 
 </details>
+
+<br />
+
+<details>
+	<summary>Graph:</summary>
+
+-	A graph is and structure of nodes also known as vertex that are connected by edges.
+	- A graph can be directed or undirected.
+		- Directed: A node directed to another node and so on.
+		- Undirected: A node can be directed to another node and vice versa. no order is required.
+	- A graph can be weighted or unweighted.
+	- A graph can be cyclic or acyclic.
+		- Cyclic: It is posible to go from a node to another node and return to the first node.
+		- Acyclic: Going from a node to another node and return to the first node is not posible.
+
+</details>
