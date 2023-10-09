@@ -92,8 +92,12 @@ myGraph.addVertex('5')
 myGraph.addVertex('6')
 myGraph.addVertex('8')
 
+myGraph.addEdge('1','6')
+myGraph.addEdge('6','3')
 myGraph.addEdge('1','3')
 myGraph.addEdge('1','4')
-myGraph.addEdge('1','6')
+myGraph.addEdge('3','5')
+myGraph.addEdge('4','5')
+myGraph.addEdge('8','4')
 
 console.log(myGraph);
