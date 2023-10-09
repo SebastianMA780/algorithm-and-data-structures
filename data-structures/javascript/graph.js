@@ -57,10 +57,6 @@
 				5
 */
 
-//  1. Define class and variables we need
-//	2. define methods to add vertex and edges
-//  3. check results
-
 class Graph {
 	constructor() {
 		this.nodes = 0;
